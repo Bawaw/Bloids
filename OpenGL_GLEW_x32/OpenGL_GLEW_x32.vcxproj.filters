@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\cfg">
+      <UniqueIdentifier>{f97e3aaf-cdcc-4715-9939-dc7447f35e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{47907f94-9130-480e-bc27-38f4dc2de5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene">
+      <UniqueIdentifier>{b6f7c880-3ae4-4805-ab52-b80992c99f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer">
+      <UniqueIdentifier>{bf2850c0-4524-423d-8812-bd66e68657fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\app">
+      <UniqueIdentifier>{a2338634-45d0-42f1-8131-1ff4a8f0d461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shape">
+      <UniqueIdentifier>{b9c2d078-9028-4995-95f9-d9cef036a41e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sdl">
+      <UniqueIdentifier>{d57fe8e3-e2ad-4b5c-9a52-b8c2452f66a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OpenGL_GLEW32.vstemplate" />
+    <None Include="resources\cfg\app1.cfg">
+      <Filter>Resource Files\cfg</Filter>
+    </None>
+    <None Include="src\scene\.DS_Store">
+      <Filter>Source Files\scene</Filter>
+    </None>
+    <None Include="src\util\.DS_Store">
+      <Filter>Source Files\util</Filter>
+    </None>
+    <None Include="resources\sdl\circles.sdl">
+      <Filter>Resource Files\sdl</Filter>
+    </None>
+    <None Include="resources\cfg\app2.cfg">
+      <Filter>Resource Files\cfg</Filter>
+    </None>
+    <None Include="resources\sdl\circles2.sdl">
+      <Filter>Resource Files\sdl</Filter>
+    </None>
+    <None Include="resources\cfg\app3.cfg">
+      <Filter>Resource Files\cfg</Filter>
+    </None>
+    <None Include="resources\sdl\boids.sdl">
+      <Filter>Resource Files\sdl</Filter>
+    </None>
+    <None Include="resources\sdl\flock1.sdl">
+      <Filter>Resource Files\sdl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\App.cpp">
+      <Filter>Source Files\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\AppConfigurationFileReader.cpp">
+      <Filter>Source Files\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\Renderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Point.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Vector.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shape\Circle.cpp">
+      <Filter>Source Files\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shape\DynamicCircle.cpp">
+      <Filter>Source Files\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\SceneFactory.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\WorldWindow.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shape\Boid.cpp">
+      <Filter>Source Files\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shape\Flock.cpp">
+      <Filter>Source Files\shape</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\app\AppConfigurationFileReader.h">
+      <Filter>Source Files\app</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\Renderer.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\WorldWindow.h">
+      <Filter>Source Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Point.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Colour.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Vector.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\IDrawable.h">
+      <Filter>Source Files\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\Shape.h">
+      <Filter>Source Files\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\Circle.h">
+      <Filter>Source Files\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\DynamicCircle.h">
+      <Filter>Source Files\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\IAnimatable.h">
+      <Filter>Source Files\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\Scene.h">
+      <Filter>Source Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\SceneFactory.h">
+      <Filter>Source Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\Boid.h">
+      <Filter>Source Files\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shape\Flock.h">
+      <Filter>Source Files\shape</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

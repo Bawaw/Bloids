@@ -1,0 +1,12 @@
+colour 1 0 0
+circle 500 100 15
+circle 500 400 15
+circle 100 390 15
+circle 930 190 15
+colour 0 0 1
+circle 200 290 20
+circle 318.5 70 20
+circle 750 114 20
+circle 900 341 20
+colour 0 1 0
+dynamicCircle 0 105 3 5 0
